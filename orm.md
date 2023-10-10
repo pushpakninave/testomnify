@@ -78,7 +78,11 @@ class Flight extends Model{
     ]
 }
 ```
+<<<<<<< HEAD
 
 <p>
   <img width="500" src="https://github.com/pushpakninave/testomnify/assets/65614791/61e100c5-5898-46c5-af0c-ed97d7be873f" alt="Eloquent ORM">
 </p>
+=======
+![image](https://github.com/pushpakninave/testomnify/assets/65614791/61e100c5-5898-46c5-af0c-ed97d7be873f)
+>>>>>>> c11a1d8efdca30a5cbd0162294637cabb0dfdd0c
