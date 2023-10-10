@@ -3,7 +3,7 @@
 ## Introduction
 Eloquent is an (ORM) tool in laravel. ORM is object relational mapping used as a bridge to simplify interaction between object oriented programs and relational-DBs. When using Eloquent, each database table has a corresponding "Model" that is used to interact with that table. In addition to retrieving records from the database table, Eloquent models allow you to insert, update, and delete records from the table as well.
 
-### MODEL CLASSES
+### model class
 Models typically live in the `app\Models` directory and extends the `Illuminate\Database\Eloquent\Model` class.
 
 ### creating model class
@@ -40,7 +40,41 @@ class Flight extends Model{
      * Indicates if the model's ID is auto-incrementing.
      * 
      * @var bool
-     * /
+     */
     public $incremeting = false;
+}
+```
+
+### Connecting DB
+By default all Eloquent models use default db connection that is configured by the application.
+Defining custom configuration for connecting database by `$connection` property on the model.
+```php
+namespace App\Models;
+use Illuminate\Database\Eloquent\Model;
+class Flight extends Model{
+    /**
+     * the db connection used by model.
+     * 
+     * @var string 
+     */
+    protected $connection = 'sqlite';
+}
+```
+### Defining attributes
+By default the newly instantiated model instance will not contain any attribute. But for custom attributes we can use `$attributes` property.
+usecase:
+```php
+namespace App\models;
+use Illuminate\Database\Eloquent\Model;
+class Flight extends Model{
+    /**
+     * custom attributes with default values.
+     * 
+     * @var array
+    */
+    protected $attributes = [
+        'options' => '[]',
+        'delayed' => false,
+    ]
 }
 ```
