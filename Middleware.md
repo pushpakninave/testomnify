@@ -1,12 +1,11 @@
-# Laravel Middleware and Controller Documentation
+# Laravel Middleware Documentation
 
 ## Introduction
-
-Laravel, is a PHP web application framework, utilizes Middleware and Controllers to handle HTTP requests and responses. , allowing you to process requests before they reach the application's core, while Controllers manage the application logic and respond to user actions.
+Laravel, is a PHP web application framework, utilizes Middleware and Controllers to handle HTTP requests and responses. Allowing you to process requests before they reach the application's core, while Controllers manage the application logic and respond to user actions.
 
 # Middleware
 Middleware acts as a filter. It is basically a filter for the incoming http requests. Works like request and the actions may be before or after the requests. 
-Request here is like a demand or query through HTTP and response accordingly.
+Request here is like a demand or query through HTTP and response accordingly.                                                   
 It intercepts HTTP requests, enabling you to perform actions before they reach the controller. Here are key concepts and usage examples:
 all the middlewares are found in app/Http/middleware
 
@@ -75,46 +74,7 @@ protected $middleware = [
 ```
 <br/><br/>
 
-# Controller
-Controllers manage the application's HTTP request handling. It basically make further decisions as per the response. 
-Here are key concepts and usage examples:
 
-### Creating Controllers
-Generate a new controller class with 
-`php artisan make:controller`
-
-### Controller Methods
-Methods handle specific actions, returning responses to users.
-
-### Dependency Injection
-Controllers support dependency injection for easy access to services and other dependencies.
-
-### Resource Controllers
-Organize controllers and define RESTful routes easily.
-
-### Usage Example:
-```php
-// Creating a Controller
-php artisan make:controller UserController
-
-class ValidTokenAction{
-    
-// Controller Logic
-public function index()
-{
-    // Logic to display a list of users.
-}
-
-// Routing to Controllers
-Route::get('/users', 'UserController@index');
-
-// Dependency Injection
-public function show(User $user)
-{
-    // $user is automatically injected based on the route parameter.
-}
-
-}
 ```
 
 <p align="center">

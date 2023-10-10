@@ -6,8 +6,8 @@ Welcome to Omnify! This documentation provides an overview of key concepts and p
 
 - [Introduction to laravel](#introduction)
 - [Artisan in laravel](Artisan.md)
-- [Middleware](laravel.md/#laravel-middleware-and-controller-documentation)
-- [Controllers](laravel.md/#controller)
+- [Middleware](Middleware.md)
+- [Controllers](Controllers.md)
 - [Eloquent-ORM](orm.md)
 - [Contributing](#contributing)
 - [License](#license)
