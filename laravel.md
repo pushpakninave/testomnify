@@ -4,7 +4,7 @@
 
 Laravel, is a PHP web application framework, utilizes Middleware and Controllers to handle HTTP requests and responses. , allowing you to process requests before they reach the application's core, while Controllers manage the application logic and respond to user actions.
 
-- ## Middleware
+# Middleware
 Middleware acts as a filter. It is basically a filter for the incoming http requests. Works like request and the actions may be before or after the requests. 
 Request here is like a demand or query through HTTP and response accordingly.
 It intercepts HTTP requests, enabling you to perform actions before they reach the controller. Here are key concepts and usage examples:
@@ -73,7 +73,9 @@ protected $middleware = [
     \App\Http\Middleware\CustomMiddleware::class,
 ];
 ```
-- ## Controller
+<br/><br/>
+
+# Controller
 Controllers manage the application's HTTP request handling. It basically make further decisions as per the response. 
 Here are key concepts and usage examples:
 

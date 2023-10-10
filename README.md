@@ -5,10 +5,9 @@ Welcome to Omnify! This documentation provides an overview of key concepts and p
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [ORM (Object-Relational Mapping)](#orm-object-relational-mapping)
--   - [Defining Primary Keys](#defining-primary-keys)
-- Middleware
-- Controllers
+- [Middleware](laravel.md/#middleware)
+- [Controllers](laravel.md/#controller)
+- [Eloquent-ORM](orm.md)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
