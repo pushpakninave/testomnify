@@ -1,6 +1,5 @@
 ![image](https://github.com/pushpakninave/testomnify/assets/65614791/1405109a-9c35-4b33-b8e1-6cbbbb154286)
 
-# Omnify Doc
 This personal documentation provides an overview of key concepts and practices related to Laravel development.
 
 ## Table of Contents
