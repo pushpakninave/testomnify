@@ -30,7 +30,7 @@ Runs on every HTTP request, we need to include a middleware class in the $middle
 
 Assigned to specific routes, defined in `app/Http/Kernel.php`.
 example:
-```
+```php
 use App/Http/Middleware/Authenticate;
 Route::get('/profile' , function(){
 //...
