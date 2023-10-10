@@ -1,7 +1,7 @@
 # ORM in Laravel Documentation
 
 ## Introduction
-Eloquent is an (ORM) tool in laravel. ORM is object relational mapping used as a bridge to simplify interaction between object oriented programs and relational-DBs. When using Eloquent, each database table has a corresponding "Model" that is used to interact with that table. In addition to retrieving records from the database table, Eloquent models allow you to insert, update, and delete records from the table as well.
+Eloquent is an ORM tool in laravel. ORM is object relational mapping principle used as a bridge to simplify interaction between object oriented programs and relational-DBs. When using Eloquent, each database table has a corresponding "Model" that is used to interact with that table. In addition to retrieving records from the database table, Eloquent models allow you to insert, update, and delete records from the table as well.
 
 ### model class
 Models typically live in the `app\Models` directory and extends the `Illuminate\Database\Eloquent\Model` class.
@@ -41,7 +41,7 @@ class Flight extends Model{
      * 
      * @var bool
      */
-    public $incremeting = false;
+    public $incrementing = false;
 }
 ```
 

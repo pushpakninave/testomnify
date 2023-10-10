@@ -24,7 +24,7 @@ Grouping middleware simplifies their assignment to routes, improving organizatio
 
 ### Global Middleware
 
-Runs on every HTTP request, we need to include a middleware class in the $middleware property of your `app/Http/kernel.php`.
+Runs on every HTTP request, we need to include a middleware class in the `$middleware` property of your `app/Http/kernel.php`.
 
 ### Route Middleware
 
