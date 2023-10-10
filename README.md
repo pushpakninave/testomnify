@@ -9,7 +9,7 @@ Welcome to Omnify! This documentation provides an overview of key concepts and p
 - [Middleware](Middleware.md)
 - [Controllers](Controllers.md)
 - [Eloquent-ORM](orm.md)
-- [Contributing](#contributing)
+- [Contributing](Contribute.md)
 - [License](#license)
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
