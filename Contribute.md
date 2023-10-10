@@ -26,7 +26,7 @@ Thank you for considering contributing to this project! Contributions are welcom
     ```
 
 6. **create a pull request on github**
-    Open a pull request on the GitHub repository.
+    Open a pull request on the [GitHub repository](https://github.com/pushpakninave/testomnify/).
 
 ## Reporting Issues
 If you encounter any issues or have suggestions, please open an issue.
