@@ -8,7 +8,7 @@ This personal documentation provides an overview of key concepts and practices r
 - [Artisan in laravel](Artisan.md)
 - [Middleware](Middleware.md)
 - [Controllers](Controllers.md)
-- [Eloquent-ORM](Orm.md)
+- [Eloquent-ORM](orm.md)
 - [Contributing](Contribute.md)
 - [License](#license)
 - [Contact](#contact)
