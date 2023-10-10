@@ -78,3 +78,4 @@ class Flight extends Model{
     ]
 }
 ```
+![image](https://github.com/pushpakninave/testomnify/assets/65614791/61e100c5-5898-46c5-af0c-ed97d7be873f)
