@@ -10,6 +10,10 @@ Request here is like a demand or query through HTTP and response accordingly.
 It intercepts HTTP requests, enabling you to perform actions before they reach the controller. Here are key concepts and usage examples:
 all the middlewares are found in app/Http/middleware
 
+<p align="center">
+  <img width="500" src="https://github.com/pushpakninave/testomnify/assets/65614791/7f2b16f4-b53d-4631-ab6b-6039fa171d21" alt="Description of the image">
+</p>
+
 ### Middleware Classes
 
 Middleware classes handle requests and responses, performing tasks like authentication and logging.
