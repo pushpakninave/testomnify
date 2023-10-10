@@ -115,6 +115,6 @@ public function show(User $user)
 }
 ```
 
-<p align="center">
+<p>
   <img width="500" src="https://github.com/pushpakninave/testomnify/assets/65614791/7f2b16f4-b53d-4631-ab6b-6039fa171d21" alt="Description of the image">
 </p>
