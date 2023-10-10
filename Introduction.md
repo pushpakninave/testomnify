@@ -22,13 +22,13 @@ The recently released version is Laravel 10 on Feb 14, 2023.
 13. **Unit testing** :  it can be done through laravel's provided Artisan commandline utility.
 14. **Automatic pagination** : inbuilt or automated methods for pagination. 
 15. **Form requests** : automated invoking of form validation by internally binding event listeners.
-16. **Homestead** : It is a [Vagarant VM](https://laravel.com/docs/10.x/homestead) 
+16. **Homestead** : It is a [Vagarant VM](https://laravel.com/docs/10.x/homestead){:target="_blank"} 
 17. **Sail** : starting point for building a Laravel app using PHP, MySQL and Redis 
 18. **Valet** : Tool to setup minimalisting PHP local development env on mac. 
 
 # Why Laravel:
 1. **A Progressive framework** : Contains vast library of documentation and dev-support.
-2. **A Scalable framework** : Laravel's built-in support for fast, distributed cache systems like Redis and horizontal scaling. It has platforms like [Laravel Vapor](https://docs.vapor.build/introduction.html) that allow us to scale the application on a large scale on AWS latest serveless technology.
+2. **A Scalable framework** : Laravel's built-in support for fast, distributed cache systems like Redis and horizontal scaling. It has platforms like [Laravel Vapor](https://docs.vapor.build/introduction.html){:target="_blank"} that allow us to scale the application on a large scale on AWS latest serveless technology.
 3. **A Community framework** : Laravel combines best packages in PHP to offer robust ecosystem. 
 
 [Reference docs](https://laravel.com/docs/10.x)
