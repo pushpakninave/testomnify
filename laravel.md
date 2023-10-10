@@ -10,10 +10,6 @@ Request here is like a demand or query through HTTP and response accordingly.
 It intercepts HTTP requests, enabling you to perform actions before they reach the controller. Here are key concepts and usage examples:
 all the middlewares are found in app/Http/middleware
 
-<p align="center">
-  <img width="500" src="https://github.com/pushpakninave/testomnify/assets/65614791/7f2b16f4-b53d-4631-ab6b-6039fa171d21" alt="Description of the image">
-</p>
-
 ### Middleware Classes
 
 Middleware classes handle requests and responses, performing tasks like authentication and logging.
@@ -76,3 +72,49 @@ protected $middleware = [
     // ...
     \App\Http\Middleware\CustomMiddleware::class,
 ];
+```
+## Controller
+Controllers manage the application's HTTP request handling. It basically make further decisions as per the response. 
+Here are key concepts and usage examples:
+
+### Creating Controllers
+Generate a new controller class with 
+`php artisan make:controller`
+
+### Controller Methods
+Methods handle specific actions, returning responses to users.
+
+### Dependency Injection
+Controllers support dependency injection for easy access to services and other dependencies.
+
+### Resource Controllers
+Organize controllers and define RESTful routes easily.
+
+Usage Example:
+```php
+// Creating a Controller
+php artisan make:controller UserController
+
+class ValidTokenAction{
+    
+// Controller Logic
+public function index()
+{
+    // Logic to display a list of users.
+}
+
+// Routing to Controllers
+Route::get('/users', 'UserController@index');
+
+// Dependency Injection
+public function show(User $user)
+{
+    // $user is automatically injected based on the route parameter.
+}
+
+}
+```
+
+<p align="center">
+  <img width="500" src="https://github.com/pushpakninave/testomnify/assets/65614791/7f2b16f4-b53d-4631-ab6b-6039fa171d21" alt="Description of the image">
+</p>
