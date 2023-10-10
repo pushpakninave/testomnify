@@ -90,7 +90,7 @@ Controllers support dependency injection for easy access to services and other d
 ### Resource Controllers
 Organize controllers and define RESTful routes easily.
 
-Usage Example:
+### Usage Example:
 ```php
 // Creating a Controller
 php artisan make:controller UserController
