@@ -9,5 +9,5 @@ It also provides convenient methods for interacting with the Docker containers d
 
 ## Writing Commands
 Commands are typically stored in `app/Console/Commands` directory.
--creating new commands
+- creating new commands
 to create new commands we use `make:command` Artisan command. This will create a new command class in the `app/Console/Commands` directory.
