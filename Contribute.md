@@ -16,12 +16,12 @@ Thank you for considering contributing to this project! Contributions are welcom
 3. **Create a Branch**
    `git checkout -b feature/your-feature-name`
 4. **Commit Changes**
-   ```
+   ```bash
    git add .
    git commit -m "message here"
    ```
 5. **Push Changes**
-    ```
+    ```bash
     git push origin feature/feature-here
     ```
 
